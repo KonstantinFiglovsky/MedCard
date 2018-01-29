@@ -1,0 +1,7647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form2</class>
+ <widget class="QWidget" name="Form2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>979</width>
+    <height>673</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>350</y>
+     <width>631</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QComboBox" name="comboBox_78">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_82">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_83">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_84">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_85">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_86">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_87">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_88">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_89">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_90">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_91">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_92">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_93">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_94">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_95">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_96">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>390</y>
+     <width>631</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QComboBox" name="comboBox_76">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_70">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_73">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_68">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_69">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_74">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_71">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_67">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_72">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_75">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_66">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_79">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_80">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_77">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_81">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_97">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>310</y>
+     <width>631</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_25">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_24">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_23">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_22">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_21">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_20">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_19">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_32">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_18">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_48">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_30">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_29">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_28">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_27">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_26">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_31">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_7">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>272</y>
+     <width>631</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QComboBox" name="toothtype">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_4">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_5">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_6">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_7">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_8">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_9">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_10">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_11">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_12">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_13">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_14">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_15">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="toothtype_16">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>230</y>
+     <width>631</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QComboBox" name="comboBox_98">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_99">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_100">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_101">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_102">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_103">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_104">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_105">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_106">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_107">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_108">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_109">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_110">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_111">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_112">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_113">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+     border: 1px solid gray;
+     border-radius: 3px;
+     padding: 0px 0px 0px 0px;
+     min-width: 1em;
+     padding-right: 4px
+     
+ }
+
+ QComboBox::drop-down {
+     width: 3px;
+	 border: 0px;
+ }</string>
+      </property>
+      <property name="maxVisibleItems">
+       <number>16</number>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rx</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>П</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>А</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>К</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>И</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>291</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Осмотр полости рта. Условные обозначения:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;O - отсутствует&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Rx - корень&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С - кариес&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;P - пульпит&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Pf - передонтит&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;П - пломба&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;А - парадонтоз&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;I,II,III - степень подвижности&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;К - коронка&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;И - искуственный зуб&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>200</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Дата визита:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>200</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>22.11.2017</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>440</y>
+     <width>631</width>
+     <height>221</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
